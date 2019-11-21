@@ -1,5 +1,4 @@
 ### TEXT MINING WITH R - A Tidy Approach  ###
-
 ### By Julia Silge and David Robinson
 ### Book available at: https://www.tidytextmining.com/
 
