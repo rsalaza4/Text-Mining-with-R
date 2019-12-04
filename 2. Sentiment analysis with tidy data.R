@@ -8,7 +8,7 @@
 
 library(tidytext)
 
-# affin, bing & nrc are  three general-purpose lexicons
+# affin, bing & nrc are three general-purpose lexicons
 get_sentiments("afinn")
 # "affin" lexicon assigns words with a score that runs between -5 and 5, with negative...
 # scores indicating negative sentiment and positive socres indicating positive sentiment.
