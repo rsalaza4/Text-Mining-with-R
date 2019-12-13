@@ -9,7 +9,7 @@
 # 1.2 THE UNNEST_TOKENS FUNCTION
 
 # Character vector
-text <- c("Bacause I could not stop for Death -",
+text <- c("Because I could not stop for Death -",
           "He kindly stopped for me -",
           "The Carriage held but just Ourselves -",
           "and Immortality")
