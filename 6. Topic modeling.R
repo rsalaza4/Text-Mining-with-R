@@ -151,8 +151,8 @@ chapters_gamma
 chapters_gamma %>%                                      # from the chapters_gamma data set 
   mutate(title = reorder(title, gamma * topic)) %>%     # add a new colum "title" and reorder it before plotting it with faceting
   ggplot(aes(factor(topic), gamma)) +                   # plot topic (converted into a factor)
-  geom_boxplot() +
-  facet_wrap(~ title)
+  geom_boxplot() +                                      # speficy boxplot as the type of plot
+  facet_wrap(~ title)                                   # make a plot for each title
 
 # find the topic that was most associated with each chapter using top_n()
 
