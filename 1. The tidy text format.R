@@ -140,7 +140,7 @@ frequency <- bind_rows(mutate(tidy_bronte, author = "Bronte Sisters"),     # add
   count(author, word) %>%                                                  # get the count by author and word
   group_by(author) %>%                                                     # group by authors
   mutate(proportion = n / sum(n)) %>%                                      # add a new column "proportion" corresponding to n / sum(n)
-  select(-n) %>%                                                           # select those words with negative count                                        
+  select(-n) %>%                                                           # select all columns but the "n" column                                          
   spread(author, proportion) %>%                                           # spread word proportion by authors
   gather(author, proportion, 'Bronte Sisters':'H.G. Wells')                # gather 2 authors
 frequency
