@@ -145,7 +145,7 @@ frequency <- bind_rows(mutate(tidy_bronte, author = "Bronte Sisters"),     # add
   gather(author, proportion, 'Bronte Sisters':'H.G. Wells')                # gather 2 authors
 frequency
 
-# visulization
+# visualization
 
 library(scales)
 
