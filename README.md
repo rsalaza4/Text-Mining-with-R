@@ -6,6 +6,6 @@ This repository contains codes, perosnal notes and exercises from the book 'Text
 
 * [R](https://www.r-project.org/)
 
-## Book website
+## Book Website
 
 * [Text Mining with R](https://www.tidytextmining.com/)
